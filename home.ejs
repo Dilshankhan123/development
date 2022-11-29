@@ -6,7 +6,7 @@
 <% data.forEach((data)=> { %>
 <ol>
 <h2>
-<li> <%= data.name %> <%= data.roll %></li>
+<li> <%= data.name %> <%= data.lname %></li>
 </h2>
 </ol>
 <% }) %>
@@ -18,9 +18,8 @@
 </form>
 </section>
 <section>
-<form action="/insert" method="GET">
-<h3 style="color: red;">Insert Record <input type="text" name="nm"></h3>
-<input type="submit">
+<form action="/reg" method="GET">
+<h3 style="color: red;">Insert Record <button> Register</button></h3>
 </form>
 </section>
 </body>
