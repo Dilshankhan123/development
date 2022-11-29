@@ -15,6 +15,6 @@ console.log("connection not OK")
 const sch = {
 name : String,
 lname: String
-};
+}; 
 const monmodel = mongoose.model("userdata", sch);
 module.exports= monmodel;
